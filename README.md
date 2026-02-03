@@ -1,4 +1,4 @@
-# AI Career Path Chooser (2026)
+#🗂 AI Career Path Chooser (2026)
 
 This is my first Streamlit project.
 
