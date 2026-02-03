@@ -2,6 +2,9 @@ import os
 from pymongo import MongoClient
 from dotenv import load_dotenv
 from datetime import datetime
+import certifi
+client = MongoClient(os.getenv("MONGO_URI"), tls=True, tlsCAFile=certifi.where())
+
 
 load_dotenv()
 
@@ -15,3 +18,4 @@ def store_result(input_text, ai_output):
         "result": ai_output,
         "timestamp": datetime.utcnow()
     })
+
