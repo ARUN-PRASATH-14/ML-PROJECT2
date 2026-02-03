@@ -1,4 +1,4 @@
-#🗂 AI Career Path Chooser (2026)
+###🗂 AI Career Path Chooser (2026)
 
 The app uses Google Gemini AI to analyze a student's profile
 and recommend the top 3 career paths along with a learning roadmap.
